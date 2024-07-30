@@ -1,0 +1,107 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    background-image: url('templates/img1.jpg');
+    background-size: cover; 
+    background-position: center; 
+}
+
+body {
+    
+    padding: 0 10px;
+}
+
+.wrapper {
+    max-width: 500px;
+    width: 100%;
+    background: #fff;
+    margin: 40px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 40px;
+}
+
+.wrapper .title {
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    color: #333;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.wrapper .form {
+    width: 100%;
+}
+
+.wrapper .form .inputfield {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.wrapper .form .inputfield label {
+    width: 150px;
+    color: #333;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.check {
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.check label {
+    padding: 0 10px 0 0;
+}
+
+.wrapper .form .inputfield .input,
+.wrapper .form .inputfield .custom_select select {
+    width: 100%;
+    outline: none;
+    border: 1px solid #ccc;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    transition: border-color 0.3s;
+}
+
+.wrapper .form .inputfield .input:focus,
+.wrapper .form .inputfield .custom_select select:focus {
+    border-color: #007BFF;
+}
+
+.wrapper .form .inputfield .custom_select {
+    position: relative;
+    width: 100%;
+}
+
+.wrapper .form .inputfield .btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 15px;
+    border: 0;
+    background: #007BFF;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    outline: none;
+    transition: background-color 0.3s;
+}
+
+.wrapper .form .inputfield .btn:hover {
+    background-color: #0056b3;
+}
+
+.result p {
+    text-align: center;
+    color: #007BFF;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+}
